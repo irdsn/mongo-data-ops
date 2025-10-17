@@ -12,7 +12,7 @@ A MongoDB data operations toolkit, born from real-world experience as a Data Eng
 ## Author
 
 Íñigo Rodríguez Sánchez  
-Data & Artificial Intelligence Engineer
+AI & Data Engineer
 
 ---
 
@@ -61,7 +61,7 @@ MongoDataOps aims to provide:
 ## Project Structure
 
 ```bash
-MongoDataOps/
+mongo-data-ops/
 ├── inputs/                                  # Input inputs files for processing
 │   ├── ids.txt                              # List of MongoDB _id values
 │   └── input_data.json                      # Sample documents for analysis
@@ -127,8 +127,8 @@ MongoDataOps/
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/MongoDataOps.git
-cd MongoDataOps
+git clone https://github.com/YOUR_USERNAME/mongo-data-ops.git
+cd mongo-data-ops
 ```
 
 2. (Optional but recommended) Create and activate a virtual environment:
