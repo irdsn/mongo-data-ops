@@ -7,15 +7,6 @@
 
 A MongoDB data operations toolkit, born from real-world experience as a Data Engineering Lead & Artificial Intelligence Engineer.
 
----
-
-## Author
-
-Íñigo Rodríguez Sánchez  
-AI & Data Engineer
-
----
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -25,8 +16,6 @@ AI & Data Engineer
 - [Installation](#installation)
 - [Usage](#usage)
 - [Final Words](#final-words)
-
----
 
 ## Introduction
 
@@ -41,8 +30,6 @@ MongoDataOps aims to provide:
 - Consistency and clarity in database maintenance
 - Robust, parallelized, and scalable operations
 
----
-
 ## Key Features
 
 - **Batch processing & multithreading**: All scripts are optimized for speed and scalability using batch-based logic and parallel processing.
@@ -55,8 +42,6 @@ MongoDataOps aims to provide:
   - `count_duplicated.py` works on local JSON files, offering offline analysis of duplicates.
 
 > ⚠️ **Caution**: Some operations are **destructive** (e.g., deleting or moving documents). Always validate queries and test with small samples before full execution.
-
----
 
 ## Project Structure
 
@@ -94,10 +79,7 @@ mongo-data-ops/
 ├── .env.example                             # Template for MongoDB credentials
 ├── .gitignore                               # Files and folders to ignore in Git
 └── README.md                                # Project documentation
-
 ```
-
----
 
 ## Script Overview
 
@@ -121,8 +103,6 @@ mongo-data-ops/
 
 > **Note:** Scripts use controlled multithreading, batch sizes, and robust MongoDB connection management.
 
----
-
 ## Installation
 
 1. Clone this repository:
@@ -142,8 +122,6 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
----
-
 ## Usage
 
 Each script is standalone and configurable via the constants section at the top of the script.
@@ -159,9 +137,7 @@ Before running a script:
 
 > Scripts automatically handle logs and progress reporting.
 
----
-
-## Final Words
+## Contributing & Contact
 
 MongoDataOps isn't just a set of scripts. It's a toolkit born from real data challenges.  
 Thank you for checking it out! Hope it saves you time, simplifies your workflows, and sparks new ideas.  
@@ -170,3 +146,8 @@ It is an evolving tool, open for experimentation, extension, or integration into
 Feel free to explore, extend, or integrate it into your own applications. Contributions, feedback, or improvements are always welcome.
 
 **If you’ve found this project useful or inspiring — feel free to build on it, break it, or just drop a star ⭐.**
+
+- Bugs / feature requests: please open an **Issue**.
+- Direct contact: [inigo.rodsan@gmail.com](mailto:inigo.rodsan@gmail.com)
+
+Developed & maintained by [Íñigo Rodríguez](https://github.com/irdsn).
