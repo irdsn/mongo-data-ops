@@ -10,6 +10,7 @@ A MongoDB data operations toolkit, born from real-world experience as a Data Eng
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Documentation](#documentation)
 - [Key Features](#key-features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -27,6 +28,15 @@ MongoDataOps aims to provide:
 - Efficient, production-grade MongoDB scripts
 - Consistency and clarity in database maintenance
 - Robust, parallelized, and scalable operations
+
+## Documentation
+
+Additional technical documentation is available in the `/docs` directory.
+
+- **[ARCHITECTURE.md](docs/ARCHITECTURE.md)**  
+  Provides a detailed overview of the repository structure, modules, and operational scripts included in the toolkit.
+
+This document explains how the project is organized and how each component contributes to MongoDB data workflows.
 
 ## Key Features
 

@@ -1,17 +1,22 @@
-# Architecture
+# MongoDataOps Architecture
 
 ## Project Structure
 
 ```bash
 mongo-data-ops/
-├── inputs/                                  # Input inputs files for processing
-│   ├── ids.txt                              # List of MongoDB _id values
-│   └── input_data.json                      # Sample documents for analysis
+├── docs/                                    # Extended project documentation
+│   ├── images/                              # Images used in documentation
+│   │   └── MongoDB_logo.png                 # MongoDB logo used in docs
+│   └── ARCHITECTURE.md                      # Detailed repository structure and script overview
 │
 ├── dups_analysis/                           # Output folder for duplicate analysis results
 │   ├── duplicated_ids_to_delete.txt         # IDs marked for deletion
 │   ├── duplicates.json                      # Grouped duplicate records
 │   └── stats.txt                            # Summary statistics report
+│
+├── inputs/                                  # Input inputs files for processing
+│   ├── ids.txt                              # List of MongoDB _id values
+│   └── input_data.json                      # Sample documents for analysis
 │
 ├── scripts/                                 # Automation and inputs operation scripts
 │   ├── add_fields.py                        # Adds or updates fields in documents
